@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 0.8rem;
+  color: #ffff;
+}
+.header span {
+  color: rgb(42, 202, 176);
+}

@@ -1,0 +1,25 @@
+.list-item {
+  border-bottom: 1px solid white;
+  color: #ffff;
+  font-family: "Courier New", Courier, monospace;
+}
+.list-item-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-item-info h4 {
+  font-weight: 400;
+}
+.list-item-info span {
+  font-size: 1.3rem;
+  color: turquoise;
+  font-weight: 700;
+}
+.greenColor {
+  color: green;
+}
+.redColor {
+  color: red;
+}

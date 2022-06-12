@@ -1,0 +1,90 @@
+.form {
+  width: 90vw;
+  max-width: 70vw;
+  margin: 1rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  background-color: #050a40;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px #050a15;
+  font-family: "Courier New", Courier, monospace;
+}
+.form input {
+  outline: none;
+  padding: 5px;
+  background-color: #e2dcf8;
+  border-block-end-color: #b1a3e2;
+}
+
+/* .shopName {
+  display: flex;
+  align-items: center;
+}
+.shopName label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: block;
+  width: 15%;
+  color: #ffff;
+}
+.shopName input {
+  margin-left: 0.5rem;
+  width: 100%;
+} */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+.form-container label {
+  text-align: center;
+  display: block;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.form-container select,
+input {
+  height: 2rem;
+  background-color: #e2dcf8;
+  outline: none;
+  border-color: #b1a3e2;
+}
+.form button {
+  border-color: #b1a3e2;
+  background-color: #e2dcf8;
+  font-size: 16px;
+  padding: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 760px) {
+  .form-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    justify-content: space-evenly;
+  }
+  /* .shopName label {
+    width: 40%;
+  } */
+}
+@media screen and (max-width: 400px) {
+  .form {
+    width: 98vw;
+    max-width: none;
+  }
+  .form-container select,
+  input {
+    height: 2rem;
+    width: 7rem;
+  }
+
+  .form input {
+    padding: 1px;
+  }
+}

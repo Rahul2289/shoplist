@@ -1,0 +1,9 @@
+.form-container {
+  justify-content: space-around;
+}
+.form {
+  color: white;
+}
+.form input {
+  width: 100%;
+}
